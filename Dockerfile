@@ -1,5 +1,5 @@
 FROM crosbymichael/python
 
-pip install rethinkdb
+RUN pip install rethinkdb
 
 ENV LC_ALL C.UTF-8
